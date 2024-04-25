@@ -16,5 +16,21 @@ int main()
         { "Sophievna", 1988, "COO", 125'000, "OperationsGuru" },
         { "Nikolaivna", 1993, "CMO", 110'000, "MarketingMaestro" }
     };
+
+
+    int count = 0;
+    for (int i = 0; i < N; ++i)
+    {
+        if (2024 - arr[i].BirthYear < 1964)
+        {
+            count++;
+            arr[i].showInfo();
+            cout << endl;
+        }
+    }
+
+    delete[] arr;
+
+    cout << "Total employees over 60: " << count << endl;
 }
 
