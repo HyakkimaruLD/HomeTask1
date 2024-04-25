@@ -18,6 +18,7 @@ int main()
     };
 
 
+
     int count = 0;
     for (int i = 0; i < N; ++i)
     {
@@ -28,6 +29,7 @@ int main()
             cout << endl;
         }
     }
+
 
     delete[] arr;
 
