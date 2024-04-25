@@ -21,7 +21,7 @@ int main()
     int count = 0;
     for (int i = 0; i < N; ++i)
     {
-        if (2024 - arr[i].BirthYear < 1964)
+        if (2024 - arr[i].BirthYear > 60)
         {
             count++;
             arr[i].showInfo();
